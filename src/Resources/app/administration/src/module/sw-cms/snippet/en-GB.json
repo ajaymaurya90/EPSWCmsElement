@@ -1,0 +1,9 @@
+{
+    "sw-cms": {
+        "elements": {
+            "epswSixImagesWithTitle": {
+                "label" : "6 fotos with title"
+            }
+        }
+    }
+}

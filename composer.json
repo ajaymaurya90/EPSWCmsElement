@@ -1,0 +1,28 @@
+{
+  "name": "epsw/csm-element",
+  "description": "Custom Cms element for shopware",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ajay Shankar Maurya",
+      "role": "Manufacturer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "EPSWCmsElement\\": "src/"
+    }
+  },
+  "require": {
+    "shopware/core": "6.4.* || 6.5.*"
+  },
+  "extra": {
+    "shopware-plugin-class": "EPSWCmsElement\\EPSWCmsElement",
+    "label": {
+      "de-DE": "Benutzerdefiniertes CMS-Element",
+      "en-GB": "Custom Cms element for shopware"
+    }
+  }
+}
